@@ -11,7 +11,7 @@
     <link rel="icon" href="http://www.uptbio.com/favicon.ico">
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--link href="css/bootstrap.min.css" rel="stylesheet"-->
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -25,478 +25,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-        .navbar-default{
-            background: #fff;
-        }
-        ul,ul li,a,.navbar-brand{
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        .navbar{
-            margin-bottom: 0;
-            border: none;
-        }
-        .right{
-            float: right;
-        }
-        .navbar-nav li a{
-            font-size: 18px;
-            text-decoration: none;
-            height: 45px;
-            letter-spacing: 3px;
-            color: #000;
-            margin-top: 20px;
-        }
-        .navbar-brand{
-            padding-top: 25px;
-            padding-bottom: 20px;
-            box-sizing: initial;
-        }
-        .navbar-toggle{
-            margin-top: 25px;
-        }
-        /* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-        /* Carousel base class */
-        .carousel {
-            margin-bottom: 60px;
-
-        }
-
-        /* Declare heights because of positioning of img element */
-        .carousel .item {
-        }
-        .carousel-inner > .item > img {
-            display: block;
-            position: relative;
-            top: 0;
-            left: 0;
-            min-width: 100%;
-            height: auto;
-        }
-        /* MARKETING CONTENT
-        -------------------------------------------------- */
-        #myCarousel{
-            margin-top: 95px;
-            margin-bottom: 55px;
-        }
-        #example h2,#projectOffer h2,#service h2,#ourAdvantage h2,#contactUs h2{
-            height: 40px;
-            margin: 0 auto;
-            font-size: 28px;
-            line-height: 40px;
-            color: #333;
-            font-family: PingFangSC-Medium;
-            letter-spacing: 1.11px
-        }
-        #example h2{
-            width: 117px;
-        }
-        #example .box{
-            width: 1202px;
-            height: 630px;
-            border: 1px solid #E6E6E6;
-            margin-top: 70px;
-            margin-left: -15px;
-            box-sizing: border-box;
-        }
-        .box .left{
-            width: 260px;
-            height: 630px;
-            float: left;
-            background: linear-gradient(#2CB5FC,#248CF7);
-        }
-        .box .right{
-            width: 940px;
-            height: 630px;
-            float: right;
-        }
-        .box .description{
-            width: 814px;
-            height: 96px;
-            font-size: 14px;
-            font-family: PingFangSC-Regular;
-            color: #5C5C5C;
-            line-height: 32px;
-            margin:10px 68px 10px 58px;
-        }
-        .box li{
-            width: 260px;
-            height: 76px;
-            font-size: 18px;
-            line-height: 76px;
-            padding-left: 30px;
-            font-family: PingFangSC-Regular;
-            color: #FFF;
-        }
-        .box .active{
-            font-family: PingFangSC-Regular;
-            background: #fff;
-            color: #1E96FF;
-        }
-        #projectOffer{
-            margin-top: 70px;
-            width: 100%;
-            height: 728px;
-            background: #F7F7F8;
-            margin-bottom: 55px;
-        }
-        #projectOffer h2{
-            margin-top: 55px;
-            width: 233px;
-            margin-bottom: 74px;
-        }
-        #projectOffer ul{
-            margin-left: 60px;
-        }
-        #projectOffer ul li{
-            display: inline-block;
-            font-size: 20px;
-            height: 28px;
-            line-height: 28px;
-            letter-spacing: 0.79px;
-            color: #4D4D4D;
-            margin-right: 136px;
-            font-family: PingFangSC-Medium;
-        }
-        #projectOffer .active{
-            color: #1E96FF;
-        }
-        #projectOffer .price{
-            margin-top: 40px;
-        }
-        .price img{
-            box-shadow: 0 0 6px 0 rgba(0,0,0,0.08);
-        }
-        #service{
-            width: 100%;
-        }
-        #service h2{
-            width: 117px;
-        }
-        #service .service-con{
-            margin-top: 74px;
-            background: url("img/serviceBg.png") no-repeat;
-            height: 495px;
-            width: 100%;
-        }
-        #service .service-main .service-li{
-            height: 495px;
-            float: left;
-            text-align: center;
-        }
-        #service .service-item{
-            width: 300px;
-            height: 495px;
-            display: inline-block;
-            background: url("img/svbg.png") no-repeat;
-        }
-        #service .active .service-item{
-            background: url("img/fwBg.png") no-repeat;
-        }
-        .service-item .service-img{
-            padding-top: 101px;
-            padding-bottom: 41px;
-        }
-        .service-item p{
-            color: #fff;
-            line-height: 28px;
-            font-family: PingFangSC-Medium;
-            font-size: 20px;
-            padding-bottom: 240px;
-        }
-        #service .down-load{
-            width: 300px;
-            height: 495px;
-            float: right;
-            display: inline-block;
-            background: url("img/fwBg-down.png") no-repeat;
-        }
-        .service-con .active .service-img{
-            padding-top: 172px;
-            padding-bottom: 43px;
-        }
-        .down-load .load-list li{
-            float: left;
-        }
-        .down-load .load-item{
-            width: 300px;
-            height: 165px;
-        }
-        .load-item{
-            padding-left: 38px;
-            text-align: left;
-        }
-        .load-item h4{
-            font-size: 16px;
-            line-height: 22px;
-            margin: 0;
-            font-family: PingFangSC-Medium;
-            padding-top: 43px;
-            padding-bottom: 28px;
-            color: #fff;
-        }
-        .load-item input{
-            width: 80px;
-            height: 30px;
-            background: #FFFFFF;
-            border: 1px solid #DBEEFF;
-            text-align: center;
-            line-height: 20px;
-            font-family: PingFangSC-Regular;
-            font-size: 14px;
-            color: #1E96FF;
-            letter-spacing: 0;
-        }
-        .load-item:hover{
-            background: #1E85DF;
-        }
-        #ourAdvantage h2{
-            margin-top: 70px;
-            width: 146px;
-        }
-        #ourAdvantage .advantage-list{
-        }
-        #ourAdvantage .advantage-item{
-            float: left;
-            margin-top: 64px;
-            margin-right: 169px;
-        }
-        #ourAdvantage .advantage-item span{
-            margin-top: 15px;
-            display: block;
-            width: 58px;
-            height: 20px;
-            font-family: PingFangSC-Regular;
-            font-size: 14px;
-            line-height: 20px;
-            color: #666666;
-            letter-spacing: 0;
-        }
-        #contactUs h2{
-            margin-top: 65px;
-            width: 117px;
-        }
-        #contactUs .container{
-            margin-top: 64px;
-        }
-        #contactUs .leave-message{
-            float: left;
-        }
-        .leave-message .name{
-            font-family: PingFangSC-Regular;
-            font-size: 14px;
-            line-height: 20px;
-            text-align: right;
-            width: 70px;
-            color: #333;
-        }
-        .leave-message .name em{
-            color: #C53336;
-            font-style: normal;
-            padding-right: 3px;
-        }
-        .leave-message .number,.leave-message .require{
-            width: 500px;
-            margin-left: 14px;
-            background: #FFFFFF;
-            border: 1px solid #E2E2E2;
-            border-radius: 2px;
-            text-indent: 19px;
-            text-align: left;
-        }
-        .leave-message .number {
-            height: 40px;
-        }
-        .leave-message .require{
-            height: 118px;
-            max-height: 118px;
-            max-width: 500px;
-            vertical-align: top;
-            resize: none;
-        }
-        .leave-message tr{
-            display: block;
-        }
-        .leave-message .leave-number{
-            margin-bottom: 17px;
-        }
-        .leave-message .leave-require{
-            margin-bottom: 13px;
-        }
-        .leave-message .leave-tips{
-            margin-bottom: 28px;
-        }
-        .leave-message .tips{
-            width: 358px;
-            height: 17px;
-            line-height: 17px;
-            font-family: PingFangSC-Regular;
-            font-size: 12px;
-            color: #888888;
-        }
-        .leave-message .tips,.leave-message .lsubmit{
-           padding-left: 14px;
-        }
-        #submit{
-            width: 500px;
-            height: 50px;
-            background: #1E96FF;
-            border: none;
-            border-radius: 100px;
-        }
-
-        #contactUs .contact-way{
-            float: right;
-        }
-        .contact-way{
-            padding-left: 43px;
-            border-left: 1px solid #E8E8E8;
-        }
-        .contact-way .contact-ul{
-            padding-top: 66px;
-            padding-bottom: 50px;
-        }
-        .contact-way a{
-            text-decoration: none;
-            font-family: PingFangSC-Regular;
-            color: #666666;
-        }
-        .contact-way li{
-            display: block;
-            text-indent: 30px;
-            padding-bottom: 16px;
-            font-family: PingFangSC-Regular;
-            font-size: 12px;
-            color: #666666;
-            letter-spacing: 0;
-            line-height: 24px;
-            vertical-align: text-bottom;
-        }
-        .contact-way .mobile{
-            background: url("img/dh.png") no-repeat;
-        }
-        .mobile span{
-            color: #000000;
-        }
-        .contact-way .qq{
-            background: url("img/qq.png") no-repeat;
-        }
-        .contact-way .qq{
-            background: url("img/qq.png") no-repeat;
-        }
-        .contact-way .we-chat{
-            background: url("img/wx.png") no-repeat;
-        }
-        .contact-way .addr{
-            background: url("img/dz.png") no-repeat;
-            padding-bottom: 0px;
-        }
-        .contact-way .welcome{
-            padding-top: 11px;
-            padding-bottom: 0px;
-            font-family: PingFangSC-Regular;
-            font-size: 12px;
-            color: #FF8A1A;
-            letter-spacing: 0;
-            line-height: 24px;
-        }
-        footer{
-            margin-top: 71px;
-            height: 240px;
-            width: 100%;
-            background: #262628;
-        }
-        footer .footer-top{
-            margin-top: 26px;
-            padding-bottom: 20px;
-            overflow: hidden;
-            border-bottom: 1px solid #333232;
-        }
-        .footer-top .flogo{
-            float: left;
-        }
-        .footer-top .f-num{
-            float: right;
-            width: 172px;
-            height: 30px;
-        }
-        .f-num .num-ico{
-            float: left;
-            width: 24px;
-            height: 24px;
-            position: relative;
-            top: 3px;
-            margin-right: 8px;
-        }
-        .f-num .num-text{
-            float: left;
-        }
-        .num-text .num-title{
-            font-family: PingFangSC-Regular;
-            font-size: 12px;
-            color: #818487;
-            letter-spacing: 0;
-            line-height: 14px;
-            margin-bottom: 2px;
-        }
-        .num-text .num{
-            font-family: PingFangSC-Medium;
-            font-size: 14px;
-            color: #FA5417;
-            letter-spacing: 0;
-            line-height: 14px;
-        }
-        footer .footer-bottom{
-            margin-top: 18px;
-            overflow: hidden;
-        }
-        .bottom-left{
-            width: 635px;
-            float: left;
-        }
-        .bottom-left ul{
-            padding-top: 14px;
-            margin-bottom: 25px;
-        }
-        .bottom-left ul li{
-            float: left;
-            display: block;
-            margin-right: 25px;
-        }
-        .bottom-left p{
-            font-family: PingFangSC-Regular;
-            font-size: 12px;
-            color: #48494B;
-            letter-spacing: 0;
-            line-height: 12px;
-        }
-        .bottom-left a{
-            text-decoration: none;
-            font-family: PingFangSC-Regular;
-            font-size: 12px;
-            color: #48494B;
-        }
-        .bottom-right{
-            float: right;
-        }
-        .bottom-right ul li{
-            float: left;
-            margin-right: 16px;
-        }
-        .bottom-right li p{
-            margin-top: 8px;
-            text-align: center;
-            font-family: PingFangSC-Regular;
-            font-size: 12px;
-            color: #818487;
-            letter-spacing: 0;
-            line-height: 14px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/flowDetection.css">
 </head>
 <body>
 <!-- Fixed navbar -->
@@ -525,7 +54,7 @@
 
 <!-- Carousel
     ================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -565,7 +94,7 @@
 <div id="projectOffer">
     <div class="container">
         <h2>实验服务项目报价</h2>
-        <ul>
+        <ul class="clear">
             <li>shRNA</li>
             <li class="active">双荧光素酶</li>
             <li>载体构建、基因亚克隆</li>
@@ -579,13 +108,36 @@
 <div id="service">
     <h2>服务说明</h2>
     <div class="service-con">
-        <ul class="service-main">
+        <ul class="service-main clear">
             <li class="service-li" >
                 <div class="service-item">
                     <div class="service-img">
                         <img src="img/service-ico1.png" alt="">
                     </div>
                     <p>样品接收标准</p>
+                </div>
+                <div class="down-load">
+                    <ul class="load-list clear">
+                        <li>
+                            <div class="load-item">
+                                <h4>定点突变咨询单</h4>
+                                <a href="#" target="_blank"><input type="button" value="下载"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="load-item">
+                                <h4>双荧光素酶<br>
+                                    报告基因检测咨询单</h4>
+                                <a href="#" target="_blank"><input type="button" value="下载"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="load-item">
+                                <h4>载体构建咨询单</h4>
+                                <a href="#" target="_blank"><input type="button" value="下载"></a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </li>
             <li class="service-li">
@@ -594,6 +146,29 @@
                         <img src="img/service-ico2.png" alt="">
                     </div>
                     <p>服务说明</p>
+                </div>
+                <div class="down-load">
+                    <ul class="load-list clear">
+                        <li>
+                            <div class="load-item">
+                                <h4>定点突变咨询单</h4>
+                                <a href="#" target="_blank"><input type="button" value="下载"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="load-item">
+                                <h4>双荧光素酶<br>
+                                    报告基因检测咨询单</h4>
+                                <a href="#" target="_blank"><input type="button" value="下载"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="load-item">
+                                <h4>载体构建咨询单</h4>
+                                <a href="#" target="_blank"><input type="button" value="下载"></a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </li>
             <li class="active service-li">
@@ -604,7 +179,7 @@
                     <p>WB咨询单</p>
                 </div>
                 <div class="down-load">
-                    <ul class="load-list">
+                    <ul class="load-list clear">
                         <li>
                             <div class="load-item">
                                 <h4>定点突变咨询单</h4>
@@ -633,7 +208,7 @@
 <div id="ourAdvantage">
     <div class="container">
         <h2>我们的优势</h2>
-        <ul class="advantage-list">
+        <ul class="advantage-list clear">
             <li class="advantage-item">
                 <img src="img/zy.png" alt="更专业">
                 <span>更专业</span>
@@ -659,7 +234,7 @@
 </div>
 <div id="contactUs">
     <h2>联系我们</h2>
-    <div class="container">
+    <div class="container clear">
         <form action="#" class="leave-message">
             <table>
                 <tr class="leave-number">
@@ -711,7 +286,7 @@
 </div>
 <footer>
     <div class="container">
-        <div class="footer-top">
+        <div class="footer-top clear">
             <div class="flogo">
                 <img src="img/logo1.png" alt="logo">
             </div>
@@ -725,7 +300,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
+        <div class="footer-bottom clear">
             <div class="bottom-left">
                 <ul>
                     <li><a href="#">首页</a></li>
@@ -760,10 +335,6 @@
 </footer>
 <!-- Bootstrap core JavaScript
    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
-<script src="js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
 </body>
