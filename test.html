@@ -3,31 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/flowDetection.css">
     <style>
-        .clear { zoom:1; }
-        .clear:after { content:''; display:block; clear:both; }
-       ul li{
-           list-style: none;
-           width: 100px;
-           height: 100px;
-           background: red;
-           margin-right: 10px;
-           float: left;
-       }
-        div{
-            height: 100px;
+        ul li{
+            display: flex;
+            justify-content: center;
+        }
+        ul li span{
+            display: block;
+            width: 40px;
+            height: 40px;
         }
     </style>
 </head>
 <body>
-<div>
-    <ul class="clear">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+<div class="container">
+<ul class="advantage-list clear row">
+    <li class="advantage-item col-xs-2 col-md-2 col-lg-2 col-sm-2">
+        <div>
+        <img src="img/zy.png" alt="更专业">
+        <span>更专业</span>
+        </div>
+    </li>
+    <li class="advantage-item col-xs-2 col-md-2 col-lg-2 col-sm-2">
+        <div>
+        <img src="img/zq.png" alt="周期更短">
+        <span>周期更短</span>
+        </div>
+    </li>
+    <li class="advantage-item col-xs-2 col-md-2 col-lg-2 col-sm-2">
+        <img src="img/fy.png" alt="费用更低">
+        <span>费用更低</span>
+    </li>
+    <li class="advantage-item col-xs-2 col-md-2 col-lg-2 col-sm-2">
+        <img src="img/fw.png" alt="服务更好">
+        <span>服务更好</span>
+    </li>
+    <li class="advantage-item col-xs-2 col-md-2 col-lg-2 col-sm-2">
+        <img src="img/fa.png" alt="方案更全">
+        <span>方案更全</span>
+    </li>
+</ul>
 </div>
 </body>
 </html>
