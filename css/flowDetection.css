@@ -459,7 +459,6 @@ html {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
-  height: 50px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -562,7 +561,7 @@ html {
   position: relative;
   float: right;
   margin-right: 15px;
-  padding: 9px 10px;
+  padding: 5px 5px;
   margin-top: 8px;
   margin-bottom: 8px;
   background-color: transparent;
@@ -728,6 +727,18 @@ textarea {
 ul {
   list-style: none;
 }
+input,
+textarea {
+  outline: none;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+input,
+textarea {
+  -webkit-appearance: none;
+}
 em {
   font-style: normal;
 }
@@ -763,12 +774,58 @@ a:hover {
   margin-top: 20px;
 }
 .navbar-brand {
-  padding-top: 25px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
   box-sizing: initial;
 }
+.navbar-brand > img {
+  width: 100px;
+}
 .navbar-toggle {
-  margin-top: 25px;
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    height: 50px;
+    box-sizing: initial;
+  }
+  .navbar-brand > img {
+    width: 151px;
+  }
+  .navbar-toggle {
+    margin-top: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    height: 50px;
+    box-sizing: initial;
+  }
+  .navbar-brand > img {
+    width: 151px;
+  }
+  .navbar-toggle {
+    margin-top: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    height: 50px;
+    box-sizing: initial;
+  }
+  .navbar-brand > img {
+    width: 151px;
+  }
+  .navbar-toggle {
+    margin-top: 25px;
+  }
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -788,19 +845,38 @@ a:hover {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 #myCarousel {
-  margin-top: 95px;
-  margin-bottom: 55px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  #myCarousel {
+    margin-top: 95px;
+    margin-bottom: 55px;
+  }
+}
+@media (min-width: 992px) {
+  #myCarousel {
+    margin-top: 95px;
+    margin-bottom: 55px;
+  }
+}
+@media (min-width: 1200px) {
+  #myCarousel {
+    margin-top: 95px;
+    margin-bottom: 55px;
+  }
 }
 #example h2,
 #projectOffer h2,
 #service h2,
 #ourAdvantage h2,
 #contactUs h2 {
-  height: 40px;
-  margin: 0 auto;
-  font-size: 28px;
-  line-height: 40px;
+  height: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
   color: #333;
+  margin: 0 auto;
   font-family: PingFangSC-Medium;
   letter-spacing: 1.11px;
 }
@@ -808,9 +884,10 @@ a:hover {
   width: 117px;
 }
 #example .box {
+  margin-top: 20px;
+  margin-bottom: 40px;
   width: 100%;
   border: 1px solid #E6E6E6;
-  margin-top: 70px;
   box-sizing: border-box;
 }
 .box .left {
@@ -837,9 +914,9 @@ a:hover {
   padding: 10px 68px 10px 58px;
 }
 .box li {
-  height: 76px;
-  font-size: 18px;
-  line-height: 76px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 40px;
   text-align: center;
   font-family: PingFangSC-Regular;
   color: #FFF;
@@ -854,7 +931,18 @@ a:hover {
     height: 450px;
   }
   .box li {
-    font-size: 12px;
+    font-size: 14px;
+    height: 76px;
+    line-height: 76px;
+  }
+  #example h2,
+  #projectOffer h2,
+  #service h2,
+  #ourAdvantage h2,
+  #contactUs h2 {
+    height: 40px;
+    font-size: 28px;
+    line-height: 40px;
   }
 }
 @media (min-width: 992px) {
@@ -862,7 +950,18 @@ a:hover {
     height: 540px;
   }
   .box li {
-    font-size: 14px;
+    font-size: 16px;
+    height: 76px;
+    line-height: 76px;
+  }
+  #example h2,
+  #projectOffer h2,
+  #service h2,
+  #ourAdvantage h2,
+  #contactUs h2 {
+    height: 40px;
+    font-size: 28px;
+    line-height: 40px;
   }
 }
 @media (min-width: 1200px) {
@@ -871,18 +970,29 @@ a:hover {
   }
   .box li {
     font-size: 18px;
+    height: 76px;
+    line-height: 76px;
+  }
+  #example h2,
+  #projectOffer h2,
+  #service h2,
+  #ourAdvantage h2,
+  #contactUs h2 {
+    height: 40px;
+    font-size: 28px;
+    line-height: 40px;
   }
 }
 #projectOffer {
-  margin-top: 70px;
+  margin-top: 10px;
   width: 100%;
   background: #F7F7F8;
-  margin-bottom: 55px;
+  margin-bottom: 20px;
 }
 #projectOffer h2 {
-  padding-top: 55px;
+  padding-top: 10px;
+  margin-bottom: 10px;
   width: 233px;
-  margin-bottom: 74px;
 }
 #projectOffer ul li {
   display: inline-block;
@@ -899,7 +1009,7 @@ a:hover {
   color: #1E96FF;
 }
 #projectOffer .price {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .price img {
   display: block;
@@ -909,24 +1019,66 @@ a:hover {
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
 }
 @media (min-width: 768px) {
+  #projectOffer {
+    margin-top: 70px;
+    width: 100%;
+    background: #F7F7F8;
+    margin-bottom: 55px;
+  }
+  #projectOffer h2 {
+    padding-top: 55px;
+    margin-bottom: 74px;
+    width: 233px;
+  }
   #projectOffer ul li {
     font-size: 16px;
     height: 22px;
     line-height: 22px;
   }
+  #projectOffer .price {
+    margin-top: 40px;
+  }
 }
 @media (min-width: 992px) {
+  #projectOffer {
+    margin-top: 70px;
+    width: 100%;
+    background: #F7F7F8;
+    margin-bottom: 55px;
+  }
+  #projectOffer h2 {
+    padding-top: 55px;
+    margin-bottom: 74px;
+    width: 233px;
+  }
   #projectOffer ul li {
     font-size: 18px;
     height: 25px;
     line-height: 25px;
   }
+  #projectOffer .price {
+    margin-top: 40px;
+  }
 }
 @media (min-width: 1200px) {
+  #projectOffer {
+    margin-top: 70px;
+    width: 100%;
+    background: #F7F7F8;
+    margin-bottom: 55px;
+  }
+  #projectOffer h2 {
+    padding-top: 55px;
+    margin-bottom: 74px;
+    width: 233px;
+  }
   #projectOffer ul li {
     font-size: 20px;
     height: 28px;
     line-height: 28px;
+  }
+  #projectOffer .price {
+    margin-top: 40px;
   }
 }
 #service {
@@ -936,8 +1088,8 @@ a:hover {
   width: 117px;
 }
 #service .service-con {
-  margin-top: 74px;
-  height: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
 }
 #service .service-main .service-li {
@@ -947,7 +1099,7 @@ a:hover {
 }
 #service .service-item {
   width: 100%;
-  height: 120px;
+  height: 65px;
   display: inline-block;
   border-bottom: 1px solid #ccc;
   background: url("../img/svbg.png") repeat-x;
@@ -956,19 +1108,22 @@ a:hover {
   background: url("../img/fwBg.png") repeat-x;
 }
 .service-item .service-img {
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 .service-img img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 .service-item p {
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 10px;
   color: #fff;
-  line-height: 28px;
   font-family: PingFangSC-Medium;
-  font-size: 20px;
-  padding-bottom: 240px;
+}
+.service-main {
+  margin-bottom: 20px;
 }
 .service-main .down-load {
   height: auto;
@@ -983,7 +1138,7 @@ a:hover {
   float: left;
 }
 .down-load .load-item {
-  height: 100px;
+  height: 64px;
   padding-left: 18px;
   text-align: center;
   box-sizing: border-box;
@@ -1035,9 +1190,16 @@ a:hover {
     padding-top: 101px;
     padding-bottom: 41px;
   }
+  .service-item p {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 240px;
+  }
   #service .service-con {
     background: url("../img/serviceBg.png") no-repeat;
     height: 495px;
+    margin-top: 74px;
+    margin-bottom: 0px;
   }
   #service .service-main .service-li {
     height: 495px;
@@ -1062,6 +1224,7 @@ a:hover {
   .down-load .load-item {
     height: 165px;
     padding-left: 38px;
+    text-align: left;
   }
   .load-item h4 {
     font-size: 16px;
@@ -1097,9 +1260,16 @@ a:hover {
     padding-top: 101px;
     padding-bottom: 41px;
   }
+  .service-item p {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 240px;
+  }
   #service .service-con {
     background: url("../img/serviceBg.png") no-repeat;
     height: 495px;
+    margin-top: 74px;
+    margin-bottom: 0px;
   }
   #service .service-main .service-li {
     height: 495px;
@@ -1131,6 +1301,7 @@ a:hover {
   .down-load .load-item {
     height: 165px;
     padding-left: 38px;
+    text-align: left;
   }
   .load-item button {
     width: 80px;
@@ -1162,6 +1333,8 @@ a:hover {
   #service .service-con {
     background: url("../img/serviceBg.png") no-repeat;
     height: 495px;
+    margin-top: 74px;
+    margin-bottom: 0px;
   }
   #service .service-main .service-li {
     height: 495px;
@@ -1170,6 +1343,11 @@ a:hover {
     height: 495px;
     background: url("../img/svbg.png") no-repeat;
     border-bottom: none;
+  }
+  .service-item p {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 240px;
   }
   #service .active .service-item {
     background: url("../img/fwBg.png") no-repeat;
@@ -1193,6 +1371,7 @@ a:hover {
   .down-load .load-item {
     height: 165px;
     padding-left: 38px;
+    text-align: left;
   }
   .load-item button {
     width: 80px;
@@ -1203,8 +1382,11 @@ a:hover {
   }
 }
 #ourAdvantage h2 {
-  margin-top: 70px;
+  margin-top: 20px;
   width: 146px;
+}
+#ourAdvantage .advantage-list {
+  margin-top: 20px;
 }
 #ourAdvantage .advantage-item {
   float: left;
@@ -1212,41 +1394,129 @@ a:hover {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
-  margin-top: 64px;
 }
 #ourAdvantage .advantage-item img {
   display: block;
+  width: 25px;
   height: auto;
+  margin: 0 auto;
 }
 #ourAdvantage .advantage-item span {
-  margin-top: 15px;
+  margin-top: 10px;
+  width: 45px;
+  height: 12px;
+  font-size: 9px;
+  line-height: 12px;
   display: block;
-  width: 58px;
-  height: 20px;
   font-family: PingFangSC-Regular;
-  font-size: 14px;
-  line-height: 20px;
   text-align: center;
   color: #666666;
   letter-spacing: 0;
 }
+@media (min-width: 768px) {
+  #ourAdvantage h2 {
+    margin-top: 70px;
+    width: 146px;
+  }
+  #ourAdvantage .advantage-list {
+    margin-top: 64px;
+  }
+  #ourAdvantage .advantage-item img {
+    display: block;
+    width: 58px;
+    height: 58px;
+  }
+  #ourAdvantage .advantage-item span {
+    margin-top: 15px;
+    width: 58px;
+    height: 20px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  #ourAdvantage h2 {
+    margin-top: 70px;
+    width: 146px;
+  }
+  #ourAdvantage .advantage-list {
+    margin-top: 64px;
+  }
+  #ourAdvantage .advantage-item img {
+    display: block;
+    width: 58px;
+    height: 58px;
+  }
+  #ourAdvantage .advantage-item span {
+    margin-top: 15px;
+    width: 58px;
+    height: 20px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  #ourAdvantage h2 {
+    margin-top: 70px;
+    width: 146px;
+  }
+  #ourAdvantage .advantage-list {
+    margin-top: 64px;
+  }
+  #ourAdvantage .advantage-item img {
+    display: block;
+    width: 58px;
+    height: 58px;
+  }
+  #ourAdvantage .advantage-item span {
+    margin-top: 15px;
+    width: 58px;
+    height: 20px;
+    font-size: 14px;
+  }
+}
 #contactUs h2 {
-  margin-top: 65px;
+  margin-top: 20px;
   width: 117px;
 }
 #contactUs .container {
-  margin-top: 64px;
+  margin-top: 20px;
 }
 #contactUs .leave-message {
   float: left;
   text-align: center;
 }
+@media (min-width: 768px) {
+  #contactUs h2 {
+    margin-top: 65px;
+    width: 117px;
+  }
+  #contactUs .container {
+    margin-top: 64px;
+  }
+}
+@media (min-width: 992px) {
+  #contactUs h2 {
+    margin-top: 65px;
+    width: 117px;
+  }
+  #contactUs .container {
+    margin-top: 64px;
+  }
+}
+@media (min-width: 1200px) {
+  #contactUs h2 {
+    margin-top: 65px;
+    width: 117px;
+  }
+  #contactUs .container {
+    margin-top: 64px;
+  }
+}
 .leave-message span {
-  font-family: PingFangSC-Regular;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 15px;
   display: inline-block;
   text-align: right;
+  font-family: PingFangSC-Regular;
   padding-right: 14px;
   box-sizing: border-box;
   color: #333;
@@ -1258,21 +1528,21 @@ a:hover {
 }
 .leave-message .number,
 .leave-message .require {
+  font-size: 12px;
   background: #FFFFFF;
   border: 1px solid #E2E2E2;
   border-radius: 2px;
-  text-indent: 19px;
   text-align: left;
+  text-indent: 19px;
   font-family: PingFangSC-Regular;
-  font-size: 14px;
   color: #C5C8C9;
 }
 .leave-message .number {
-  height: 40px;
+  height: 20px;
 }
 .leave-message .require {
-  height: 118px;
-  max-height: 118px;
+  height: 80px;
+  max-height: 80px;
   padding: 0px;
   vertical-align: top;
   resize: none;
@@ -1284,13 +1554,13 @@ a:hover {
   margin-bottom: 13px;
 }
 .leave-message .leave-tips {
-  margin: 0px 0px 28px 95px ;
+  margin: 0px 0px 10px 50px;
 }
 .leave-message .tips {
-  height: 17px;
-  line-height: 17px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 9px;
   font-family: PingFangSC-Regular;
-  font-size: 12px;
   color: #888888;
 }
 .leave-message .lsubmit {
@@ -1308,20 +1578,59 @@ a:hover {
     height: 50px;
     width: 260px;
   }
+  .leave-message .tips {
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+  }
+  .leave-message .number,
+  .leave-message .require {
+    font-size: 14px;
+  }
+  .leave-message .number {
+    height: 40px;
+  }
+  .leave-message .require {
+    height: 118px;
+    max-height: 118px;
+  }
 }
 @media (min-width: 992px) {
   #submit {
     height: 50px;
     width: 300px;
   }
+  .leave-message .tips {
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+  }
+  .leave-message span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .leave-message .number,
+  .leave-message .require {
+    font-size: 14px;
+  }
+  .leave-message .number {
+    height: 40px;
+  }
+  .leave-message .require {
+    height: 118px;
+    max-height: 118px;
+  }
 }
 @media (min-width: 1200px) {
   .leave-message span {
     width: 80px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .leave-message .number,
   .leave-message .require {
     width: 500px;
+    font-size: 14px;
   }
   .leave-message .require {
     max-width: 500px;
@@ -1329,6 +1638,20 @@ a:hover {
   #submit {
     height: 50px;
     width: 500px;
+  }
+  .leave-message .tips {
+    width: 358px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    margin: 0px 0px 28px 95px ;
+  }
+  .leave-message .number {
+    height: 40px;
+  }
+  .leave-message .require {
+    height: 118px;
+    max-height: 118px;
   }
 }
 #contactUs .contact-way {
@@ -1430,9 +1753,6 @@ a:hover {
   }
 }
 @media (min-width: 1200px) {
-  .leave-message .tips {
-    width: 358px;
-  }
   #contactUs .contact-way,
   #contactUs .leave-message {
     text-align: left;
@@ -1614,7 +1934,7 @@ footer .footer-bottom {
   font-size: 12px;
   color: #48494B;
   letter-spacing: 0;
-  line-height: 12px;
+  line-height: 20px;
 }
 .bottom-left a {
   text-decoration: none;
