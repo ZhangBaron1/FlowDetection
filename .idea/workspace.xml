@@ -65,8 +65,8 @@
       <file leaf-file-name="flowDetection.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/flowDetection.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="1339" column="17" lean-forward="true" selection-start-line="1339" selection-start-column="17" selection-end-line="1339" selection-end-column="17" />
+            <state relative-caret-position="413">
+              <caret line="1362" column="26" lean-forward="true" selection-start-line="1362" selection-start-column="26" selection-end-line="1362" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -232,12 +232,12 @@
       <workItem from="1532696143836" duration="1583000" />
       <workItem from="1532744316359" duration="21964000" />
       <workItem from="1532909834193" duration="24568000" />
-      <workItem from="1532997493320" duration="24301000" />
+      <workItem from="1532997493320" duration="24673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211095000" />
+    <option name="totallyTimeSpent" value="211467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -934,8 +934,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/flowDetection.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="1339" column="17" lean-forward="true" selection-start-line="1339" selection-start-column="17" selection-end-line="1339" selection-end-column="17" />
+        <state relative-caret-position="413">
+          <caret line="1362" column="26" lean-forward="true" selection-start-line="1362" selection-start-column="26" selection-end-line="1362" selection-end-column="26" />
         </state>
       </provider>
     </entry>
