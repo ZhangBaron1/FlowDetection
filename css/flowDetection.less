@@ -438,10 +438,9 @@ a:active,a:hover{outline:0}
 .navbar-nav li a{
     font-size: 18px;
     text-decoration: none;
-    height: 45px;
     letter-spacing: 3px;
     color: #000;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 .navbar-brand{
     padding-top: 10px;
@@ -457,6 +456,10 @@ a:active,a:hover{outline:0}
 }
 
 @media (min-width: 768px) {
+  .navbar-nav li a{
+    height: 50px;
+    margin-top: 20px;
+  }
   .navbar-brand{
     padding-top: 25px;
     padding-bottom: 20px;
@@ -469,8 +472,33 @@ a:active,a:hover{outline:0}
   .navbar-toggle{
     margin-top: 25px;
   }
+  .navbar-nav .sliding-middle-out{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px;
+  }
+  .navbar-nav .sliding-middle-out:after{
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  .sliding-middle-out:hover:after{
+    width: 50%;
+    background: #1e96ff;
+  }
+  .navbar-nav li a:hover{
+    color: #1e96ff;
+  }
 }
 @media (min-width: 992px) {
+  .navbar-nav li a{
+    height: 50px;
+    margin-top: 20px;
+  }
   .navbar-brand{
     padding-top: 25px;
     padding-bottom: 20px;
@@ -485,6 +513,10 @@ a:active,a:hover{outline:0}
   }
 }
 @media (min-width: 1200px) {
+  .navbar-nav li a{
+    height: 50px;
+    margin-top: 20px;
+  }
   .navbar-brand{
     padding-top: 25px;
     padding-bottom: 20px;
@@ -579,14 +611,6 @@ a:active,a:hover{outline:0}
     width: 100%;
     height: auto;
 }
-.box .description{
-    height: 96px;
-    font-size: 14px;
-    font-family: PingFangSC-Regular;
-    color: #5C5C5C;
-    line-height: 32px;
-    padding:10px 68px 10px 58px;
-}
 .box li{
     height: 40px;
     font-size: 12px;
@@ -594,6 +618,16 @@ a:active,a:hover{outline:0}
     text-align: center;
     font-family: PingFangSC-Regular;
     color: #FFF;
+}
+.box li a{
+    color: #FFF;
+}
+
+.box .ali-wrap{
+    width: 100%;
+}
+.box .active a{
+    color: #1E96FF;
 }
 .box .active{
     font-family: PingFangSC-Regular;
@@ -1213,7 +1247,6 @@ a:active,a:hover{outline:0}
     border: 1px solid #E2E2E2;
     border-radius: 2px;
     text-align: left;
-    text-indent: 19px;
     font-family: PingFangSC-Regular;
     color: #C5C8C9;
 }
@@ -1266,6 +1299,7 @@ a:active,a:hover{outline:0}
   }
   .leave-message .number,.leave-message .require{
     font-size: 14px;
+    text-indent: 19px;
   }
   .leave-message .number {
     height: 40px;
@@ -1291,6 +1325,7 @@ a:active,a:hover{outline:0}
   }
   .leave-message .number,.leave-message .require{
     font-size: 14px;
+    text-indent: 19px;
   }
   .leave-message .number {
     height: 40px;
@@ -1309,6 +1344,7 @@ a:active,a:hover{outline:0}
   .leave-message .number,.leave-message .require{
     width: 500px;
     font-size: 14px;
+    text-indent: 19px;
   }
   .leave-message .require{
     max-width: 500px;
@@ -1378,6 +1414,24 @@ a:active,a:hover{outline:0}
     color: #FF8A1A;
     letter-spacing: 0;
     line-height: 15px;
+    animation: ring 2s infinite;
+}
+@keyframes ring{
+  0% {
+    transform: scale(1);
+  }
+  10%, 20% {
+    transform: scale(0.95) rotate(-1deg);
+  }
+  30%, 50%, 70%, 90% {
+    transform: scale(1) rotate(1deg);
+  }
+  40%, 60%, 80% {
+    transform: scale(1) rotate(-1deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
 }
 @media (min-width: 768px) {
   .contact-way a{
@@ -1401,6 +1455,7 @@ a:active,a:hover{outline:0}
   }
   .contact-way .welcome{
     padding-top: 11px;
+    animation:none;
   }
   .mobile span{
     color: #000000;
@@ -1431,6 +1486,7 @@ a:active,a:hover{outline:0}
   }
   .contact-way .welcome{
     padding-top: 11px;
+    animation:none;
   }
 }
 @media (min-width: 1200px) {
@@ -1462,6 +1518,7 @@ a:active,a:hover{outline:0}
   }
   .contact-way .welcome{
     padding-top: 11px;
+    animation:none;
   }
   .mobile span{
     color: #000000;

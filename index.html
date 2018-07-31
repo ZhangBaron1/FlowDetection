@@ -30,7 +30,7 @@
 <body>
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+    <div class="container clear">
         <div class="navbar-header left clear">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -42,11 +42,11 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav right">
-                <li><a href="#" target="_self">首页</a></li>
-                <li><a href="#about" target="_self">WB检测</a></li>
-                <li><a href="#contact" target="_self">流式检测</a></li>
-                <li><a href="#contact" target="_self">公司简介</a></li>
-                <li><a href="#contact" target="_self">联系我们</a></li>
+                <li class="sliding-middle-out"><a href="#" target="_self">首页</a></li>
+                <li class="sliding-middle-out"><a href="#about" target="_self">WB检测</a></li>
+                <li class="sliding-middle-out"><a href="#contact" target="_self">流式检测</a></li>
+                <li class="sliding-middle-out"><a href="#contact" target="_self">公司简介</a></li>
+                <li class="sliding-middle-out"><a href="#contact" target="_self">联系我们</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -76,19 +76,15 @@
         </div>
         <div class="box row">
             <div class="left clo-lg-2 col-sm-2 col-md-2 col-xs-10">
-                <ul>
-                    <li>shRNA</li>
-                    <li class="active">双荧光素酶</li>
-                    <li>载体构建、基因亚克隆</li>
-                    <li>定点突变</li>
+                <ul id="example-ul">
+                    <li class="active"><a href="img/example/mbcase1.png"><div class="ali-wrap">shRNA</div></a></li>
+                    <li><a href="img/example/mbcase2.png"><div class="ali-wrap">双荧光素酶</div></a></li>
+                    <li><a href="img/example/mbcase3.png"><div class="ali-wrap">载体构建、基因亚克隆</div></a></li>
+                    <li><a href="img/example/mbcase4.png"><div class="ali-wrap">定点突变</div></a></li>
                 </ul>
             </div>
             <div class="right clo-lg-8 col-sm-8 col-md-8 xs-hidden sm-visible md-visible lg-visible">
-                <img src="img/example1.png" alt="example1">
-                <p class="description">
-                    确定目的干扰基因NEAT1（NR_028272.1），综合多个shRNA靶点数据库确定干扰靶点，设计引物完成退火，与线性化的shRNA载体
-                    （pFHU6-GFP-NEO）进行连接转化，测序比对正确的克隆即为构建成功的shRNA表达载体
-                </p>
+                <img src="img/example/mbcase1.png" alt="example">
             </div>
         </div>
     </div>
@@ -98,14 +94,14 @@
         <div class="row">
             <h2>实验服务项目报价</h2>
         </div>
-        <ul class="clear row">
-            <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-lg-offset-1">shRNA</li>
-            <li class="active col-xs-2 col-sm-2 col-md-2 col-lg-2">双荧光素酶</li>
+        <ul class="clear row" id="projectOffer-ul">
+            <li class="active col-xs-2 col-sm-2 col-md-2 col-lg-2 col-lg-offset-1">shRNA</li>
+            <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">双荧光素酶</li>
             <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2">载体构建、基因亚克隆</li>
             <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">定点突变</li>
         </ul>
         <div class="price row">
-            <img src="img/price1.jpg" alt="">
+            <img src="img/price/price1.png" alt="">
         </div>
     </div>
 </div>
@@ -122,9 +118,9 @@
                     </div>
                     <p>样品接收标准</p>
                 </div>
-                <div class="down-load col-xs-10">
+                <div class="down-load col-xs-10 col-sm-10 col-md-10 col-lg-10">
                     <ul class="load-list clear">
-                        <li class="col-xs-2">
+                        <li class="col-xs-2 col-sm-10 col-md-10 col-lg-10">
                             <div class="load-item">
                                 <div class="xs-hidden sm-visible md-visible lg-visible">
                                     <h4>定点突变咨询单</h4>
@@ -135,7 +131,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="col-xs-4 col-xs-offset-1">
+                        <li class="col-xs-4 col-xs-offset-1 col-sm-10 col-md-10 col-lg-10">
                             <div class="load-item">
                                 <div class="xs-hidden sm-visible md-visible lg-visible">
                                     <h4>双荧光素酶<br>
@@ -143,12 +139,12 @@
                                     <a href="#" target="_blank"><button class="btn">下载</button></a>
                                 </div>
                                 <div class="sm-hidden md-hidden lg-hidden">
-                                    <h4><a href="#" target="_blank">双荧光素酶<br>
-                                        报告基因检测咨询单</a></h4>
+                                    <a href="#" target="_blank"><h4>双荧光素酶<br>
+                                        报告基因检测咨询单</h4></a>
                                 </div>
                             </div>
                         </li>
-                        <li class="col-xs-2 col-xs-offset-1">
+                        <li class="col-xs-2 col-xs-offset-1 col-sm-10 col-md-10 col-lg-10">
                             <div class="load-item">
                                 <div class="xs-hidden sm-visible md-visible lg-visible">
                                     <h4>载体构建咨询单</h4>
@@ -209,7 +205,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="active service-li col-xs-10 col-sm-4 col-md-4 col-lg-4 clear">
+            <li class="service-li col-xs-10 col-sm-2 col-md-2 col-lg-2 clear">
                 <div class="service-item">
                     <div class="service-img">
                         <img src="img/service-ico3.png" alt="">
@@ -440,5 +436,6 @@
 <script src="js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/flowDetection.js"></script>
 </body>
 </html>
