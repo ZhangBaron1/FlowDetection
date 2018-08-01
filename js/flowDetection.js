@@ -1,4 +1,3 @@
-"use strict";
 $(function () {
     // 获取手指在轮播图元素上的一个滑动方向（左右）
 
@@ -30,16 +29,18 @@ $(function () {
     })
 });
 function changgeLi(aLi,index,aSrc,oImg) {
-    for(let i=0; i<aLi.length ; i++){
-        aLi[i].onmouseover = function(){
+    for(var i=0; i<aLi.length ; i++){
+        aLi[i].index = i;
+        aLi[i].onmouseenter = function(){
             aLi[index].classList.remove('active');
-            aLi[i].classList.add('active');
-            index = i;
-            oImg.src = aSrc[i%aLi.length];
+            this.classList.add('active');
+            index = this.index;
+            oImg.src = aSrc[this.index%aLi.length];
             return false;
         }
     }
 }
+/*
 //设备检测
 function detectmob() {
     if( navigator.userAgent.match(/Android/i)
@@ -56,10 +57,11 @@ function detectmob() {
         return false;
     }
 }
+*/
 
-function getStyle(obj,attr){
+/*function getStyle(obj,attr){
     return getComputedStyle(obj)?getComputedStyle(obj)[attr]:obj.currentStyle[attr];
-}
+}*/
 //   实验案例切换
 (function () {
         var oexUl = document.getElementById('example-ul');
@@ -103,7 +105,8 @@ function getStyle(obj,attr){
             obj.classList.remove('col-sm-4');
         }
     }
-    for(let i=0; i<aLi.length; i++){
+    for(var i=0; i<aLi.length; i++){
+        aLi[i].index = i;
         aLi[i].onmouseover = function(){
             var nowWidth = window.innerWidth;
             clientW = nowWidth;
@@ -119,11 +122,10 @@ function getStyle(obj,attr){
                 this.classList.remove('col-sm-2');
                 this.classList.add('col-sm-4');
             }
-            index = i;
+            index = this.index;
         }
         aLi[i].onmouseout = function(){
-            remove(aLi[i]);
+            remove(aLi[this.index]);
         }
     }
-
 })();
