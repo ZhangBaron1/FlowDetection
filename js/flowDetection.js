@@ -28,19 +28,6 @@ $(function () {
         }
     })
 });
-function changgeLi(aLi,index,aSrc,oImg) {
-    for(var i=0; i<aLi.length ; i++){
-        aLi[i].index = i;
-        aLi[i].onmouseenter = function(){
-            aLi[index].classList.remove('active');
-            this.classList.add('active');
-            index = this.index;
-            oImg.src = aSrc[this.index%aLi.length];
-            return false;
-        }
-    }
-}
-/*
 //设备检测
 function detectmob() {
     if( navigator.userAgent.match(/Android/i)
@@ -57,7 +44,31 @@ function detectmob() {
         return false;
     }
 }
-*/
+function stopDefault( e )
+{
+    if ( e && e.preventDefault )
+        e.preventDefault();
+    else
+        window.event.returnValue = false;
+}
+function changgeLi(aLi,index,aSrc,oImg,hasA) {
+    var clientW = window.innerWidth;
+    for(var i=0; i<aLi.length ; i++){
+        aLi[i].index = i;
+        aLi[i].onmouseover = function(e){
+            if(hasA&&detectmob()&&(clientW>768)){
+                stopDefault(e);
+                this.getElementsByTagName('a')[0].href = "javascript:;";
+                console.log(this.getElementsByTagName('a')[0].href);
+            }
+            aLi[index].classList.remove('active');
+            this.classList.add('active');
+            index = this.index;
+            oImg.src = aSrc[this.index%aLi.length];
+            return false;
+        }
+    }
+}
 
 /*function getStyle(obj,attr){
     return getComputedStyle(obj)?getComputedStyle(obj)[attr]:obj.currentStyle[attr];
@@ -70,7 +81,7 @@ function detectmob() {
         var oImg = oBox.getElementsByTagName('img')[0];
         var index = 0;
         var aSrc = ['img/example/mbcase1.png','img/example/mbcase2.png','img/example/mbcase3.png','img/example/mbcase4.png'];
-        changgeLi(aLi,index,aSrc,oImg);
+        changgeLi(aLi,index,aSrc,oImg,true);
     }
 )();
 
@@ -82,7 +93,7 @@ function detectmob() {
         var oImg = oBox.getElementsByTagName('img')[0];
         var index = 0;
         var aSrc = ['img/price/price1.png','img/price/price2.png','img/price/price3.png','img/price/price4.png'];
-        changgeLi(aLi,index,aSrc,oImg);
+        changgeLi(aLi,index,aSrc,oImg,false);
     }
 )();
 
