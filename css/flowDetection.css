@@ -913,7 +913,7 @@ a:hover {
   letter-spacing: 1.11px;
 }
 #example h2 {
-  width: 117px;
+  width: 200px;
 }
 #example .box {
   margin-top: 20px;
@@ -1025,7 +1025,7 @@ a:hover {
 #projectOffer h2 {
   padding-top: 10px;
   margin-bottom: 10px;
-  width: 233px;
+  width: 280px;
 }
 #projectOffer ul li {
   display: inline-block;
@@ -1061,7 +1061,7 @@ a:hover {
   #projectOffer h2 {
     padding-top: 55px;
     margin-bottom: 74px;
-    width: 233px;
+    width: 280px;
   }
   #projectOffer ul li {
     font-size: 16px;
@@ -1082,7 +1082,7 @@ a:hover {
   #projectOffer h2 {
     padding-top: 55px;
     margin-bottom: 74px;
-    width: 233px;
+    width: 280px;
   }
   #projectOffer ul li {
     font-size: 18px;
@@ -1103,7 +1103,7 @@ a:hover {
   #projectOffer h2 {
     padding-top: 55px;
     margin-bottom: 74px;
-    width: 233px;
+    width: 280px;
   }
   #projectOffer ul li {
     font-size: 20px;
@@ -1118,7 +1118,7 @@ a:hover {
   width: 100%;
 }
 #service h2 {
-  width: 117px;
+  width: 200px;
 }
 #service .service-con {
   margin-top: 20px;
@@ -1416,7 +1416,7 @@ a:hover {
 }
 #ourAdvantage h2 {
   margin-top: 20px;
-  width: 146px;
+  width: 200px;
 }
 #ourAdvantage .advantage-list {
   margin-top: 20px;
@@ -1449,7 +1449,7 @@ a:hover {
 @media (min-width: 768px) {
   #ourAdvantage h2 {
     margin-top: 70px;
-    width: 146px;
+    width: 200px;
   }
   #ourAdvantage .advantage-list {
     margin-top: 64px;
@@ -1469,7 +1469,7 @@ a:hover {
 @media (min-width: 992px) {
   #ourAdvantage h2 {
     margin-top: 70px;
-    width: 146px;
+    width: 200px;
   }
   #ourAdvantage .advantage-list {
     margin-top: 64px;
@@ -1489,7 +1489,7 @@ a:hover {
 @media (min-width: 1200px) {
   #ourAdvantage h2 {
     margin-top: 70px;
-    width: 146px;
+    width: 200px;
   }
   #ourAdvantage .advantage-list {
     margin-top: 64px;
@@ -1508,7 +1508,7 @@ a:hover {
 }
 #contactUs h2 {
   margin-top: 20px;
-  width: 117px;
+  width: 200px;
 }
 #contactUs .container {
   margin-top: 20px;
@@ -1520,7 +1520,7 @@ a:hover {
 @media (min-width: 768px) {
   #contactUs h2 {
     margin-top: 65px;
-    width: 117px;
+    width: 200px;
   }
   #contactUs .container {
     margin-top: 64px;
@@ -1529,7 +1529,7 @@ a:hover {
 @media (min-width: 992px) {
   #contactUs h2 {
     margin-top: 65px;
-    width: 117px;
+    width: 200px;
   }
   #contactUs .container {
     margin-top: 64px;
@@ -1538,7 +1538,7 @@ a:hover {
 @media (min-width: 1200px) {
   #contactUs h2 {
     margin-top: 65px;
-    width: 117px;
+    width: 200px;
   }
   #contactUs .container {
     margin-top: 64px;
