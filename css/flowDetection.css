@@ -14,6 +14,11 @@ html {
   box-sizing: border-box;
 }
 .col-xs-2 {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+}
+.col-xs-25 {
   width: 20%;
   float: left;
   box-sizing: border-box;
@@ -99,6 +104,11 @@ html {
   }
   .col-sm-2 {
     width: 20%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-sm-25 {
+    width: 25%;
     float: left;
     box-sizing: border-box;
   }
@@ -190,6 +200,11 @@ html {
     float: left;
     box-sizing: border-box;
   }
+  .col-md-25 {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+  }
   .col-md-3 {
     width: 30%;
     float: left;
@@ -275,6 +290,11 @@ html {
   }
   .col-lg-2 {
     width: 20%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-lg-25 {
+    width: 25%;
     float: left;
     box-sizing: border-box;
   }
@@ -1015,6 +1035,16 @@ a:hover {
     font-size: 28px;
     line-height: 40px;
   }
+}
+h2:after{
+  content: '';
+  width: 50px;
+  height: 2px;
+  background-image: linear-gradient(-208deg, #206CF4 0%,#2CC1FE 100%);
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: 45px;
 }
 #projectOffer {
   margin-top: 10px;

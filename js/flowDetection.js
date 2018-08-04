@@ -106,14 +106,14 @@ function changgeLi(aLi,index,aSrc,oImg,hasA) {
     function remove(obj){
         obj.classList.remove('active');
         if(clientW > 1200){
-            obj.classList.add('col-lg-2');
-            obj.classList.remove('col-lg-4');
+            obj.classList.add('col-lg-25');
+            obj.classList.remove('col-lg-5');
         }else if(clientW > 992){
-            obj.classList.add('col-md-2');
-            obj.classList.remove('col-md-4');
+            obj.classList.add('col-md-25');
+            obj.classList.remove('col-md-5');
         }else if(clientW > 768){
-            obj.classList.add('col-sm-2');
-            obj.classList.remove('col-sm-4');
+            obj.classList.add('col-sm-25');
+            obj.classList.remove('col-sm-5');
         }
     }
     for(var i=0; i<aLi.length; i++){
@@ -121,22 +121,21 @@ function changgeLi(aLi,index,aSrc,oImg,hasA) {
         aLi[i].onmouseover = function(){
             var nowWidth = window.innerWidth;
             clientW = nowWidth;
+            if(index!= this.index)
+              remove(aLi[index]);
             aLi[index].classList.remove('active');
             this.classList.add('active');
             if(clientW > 1200){
-                this.classList.remove('col-lg-2');
-                this.classList.add('col-lg-4');
+                this.classList.remove('col-lg-25');
+                this.classList.add('col-lg-5');
             }else if(clientW > 992){
-                this.classList.remove('col-md-2');
-                this.classList.add('col-md-4');
+                this.classList.remove('col-md-25');
+                this.classList.add('col-md-5');
             }else if(clientW > 768){
-                this.classList.remove('col-sm-2');
-                this.classList.add('col-sm-4');
+                this.classList.remove('col-sm-25');
+                this.classList.add('col-sm-5');
             }
             index = this.index;
-        }
-        aLi[i].onmouseout = function(){
-            remove(aLi[this.index]);
         }
     }
 })();
