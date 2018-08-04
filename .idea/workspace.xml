@@ -26,8 +26,8 @@
       <file leaf-file-name="flowDetection.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/flowDetection.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33570">
-              <caret line="1119" column="8" selection-start-line="1119" selection-start-column="8" selection-end-line="1119" selection-end-column="8" />
+            <state relative-caret-position="-987">
+              <caret line="1166" column="23" selection-start-line="1166" selection-start-column="17" selection-end-line="1166" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -35,34 +35,34 @@
       <file leaf-file-name="flowDetection.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/flowDetection.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12510">
-              <caret line="417" column="15" selection-start-line="417" selection-start-column="15" selection-end-line="417" selection-end-column="15" />
+            <state relative-caret-position="30">
+              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flowDetection.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="flowDetection.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/flowDetection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
+            <state relative-caret-position="-330">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="79" column="73" lean-forward="true" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+            <state relative-caret-position="424">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -101,8 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>media</find>
-      <find>service-main</find>
       <find>col-sm-6</find>
       <find>price</find>
       <find>xs-hidden</find>
@@ -113,16 +111,15 @@
       <find>.mobile</find>
       <find>.leave-number</find>
       <find>.leave-submit</find>
-      <find>outline: none;</find>
+      <find />
       <find>con</find>
-      <find>#service .service-con</find>
+      <find />
       <find>projectOffer</find>
       <find>example</find>
-      <find>navbar-brand</find>
-      <find>.down-load .load-item</find>
+      <find />
       <find>wel</find>
       <find>req</find>
-      <find>.navbar-nav &gt; li &gt; a</find>
+      <find />
       <find>contactUs</find>
       <find>require</find>
       <find>box</find>
@@ -131,6 +128,9 @@
       <find>detectmob</find>
       <find>console</find>
       <find>getStyle</find>
+      <find>.navbar-brand</find>
+      <find>navbar-brand</find>
+      <find>service-main</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,11 +140,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/flow_new.css" />
-        <option value="$PROJECT_DIR$/css/flowDetection.css" />
-        <option value="$PROJECT_DIR$/css/flowDetection.less" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/flowDetection.js" />
+        <option value="$PROJECT_DIR$/css/flowDetection.less" />
+        <option value="$PROJECT_DIR$/css/flowDetection.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -169,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,17 +179,24 @@
             <path>
               <item name="FlowDetection" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlowDetection" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlowDetection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlowDetection" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -231,18 +237,20 @@
       <workItem from="1532909834193" duration="24568000" />
       <workItem from="1532997493320" duration="25233000" />
       <workItem from="1533083076165" duration="14278000" />
-      <workItem from="1533132402213" duration="2065000" />
+      <workItem from="1533132402213" duration="2410000" />
+      <workItem from="1533351407633" duration="86000" />
+      <workItem from="1533391398465" duration="1411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228370000" />
+    <option name="totallyTimeSpent" value="230212000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1749634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3103953" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -313,11 +321,11 @@
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -368,11 +376,11 @@
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -423,11 +431,11 @@
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -478,11 +486,11 @@
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -529,11 +537,11 @@
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -566,11 +574,11 @@
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -603,11 +611,11 @@
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -640,11 +648,11 @@
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -677,11 +685,11 @@
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -720,27 +728,25 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ie-emulation-modes-warning.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ie10-viewport-bug-workaround.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html" />
+    <entry file="file://$PROJECT_DIR$/css/flowDetection.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/flowDetection.less">
+    <entry file="file://$PROJECT_DIR$/css/flowDetection.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12510">
-          <caret line="417" column="15" selection-start-line="417" selection-start-column="15" selection-end-line="417" selection-end-column="15" />
+        <state relative-caret-position="-987">
+          <caret line="1166" column="23" selection-start-line="1166" selection-start-column="17" selection-end-line="1166" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -751,26 +757,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/flowDetection.css">
+    <entry file="file://$PROJECT_DIR$/js/flowDetection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33570">
-          <caret line="1119" column="8" selection-start-line="1119" selection-start-column="8" selection-end-line="1119" selection-end-column="8" />
+        <state relative-caret-position="-330">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="79" column="73" lean-forward="true" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+        <state relative-caret-position="424">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -792,13 +797,6 @@
             <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/flowDetection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
         </state>
       </provider>
     </entry>

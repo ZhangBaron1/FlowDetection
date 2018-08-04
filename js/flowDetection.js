@@ -56,7 +56,7 @@ function changgeLi(aLi,index,aSrc,oImg,hasA) {
     for(var i=0; i<aLi.length ; i++){
         aLi[i].index = i;
         aLi[i].onmouseover = function(e){
-            if(hasA&&detectmob()&&(clientW>768)){
+            if(hasA&&(clientW>768)){
                 stopDefault(e);
                 this.getElementsByTagName('a')[0].href = "javascript:;";
                 console.log(this.getElementsByTagName('a')[0].href);
