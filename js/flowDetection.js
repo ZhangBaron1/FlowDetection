@@ -56,7 +56,7 @@ function changgeLi(aLi,index,aSrc,oImg,hasA) {
     for(var i=0; i<aLi.length ; i++){
         aLi[i].index = i;
         aLi[i].onmouseover = function(e){
-            if(hasA&&(clientW>768)){
+            if(hasA&&(clientW>=768)){
                 stopDefault(e);
                 this.getElementsByTagName('a')[0].href = "javascript:;";
                 console.log(this.getElementsByTagName('a')[0].href);
@@ -105,13 +105,13 @@ function changgeLi(aLi,index,aSrc,oImg,hasA) {
     var clientW = window.innerWidth;
     function remove(obj){
         obj.classList.remove('active');
-        if(clientW > 1200){
+        if(clientW >= 1200){
             obj.classList.add('col-lg-25');
             obj.classList.remove('col-lg-5');
-        }else if(clientW > 992){
+        }else if(clientW >= 992){
             obj.classList.add('col-md-25');
             obj.classList.remove('col-md-5');
-        }else if(clientW > 768){
+        }else if(clientW >= 768){
             obj.classList.add('col-sm-25');
             obj.classList.remove('col-sm-5');
         }
@@ -125,13 +125,13 @@ function changgeLi(aLi,index,aSrc,oImg,hasA) {
               remove(aLi[index]);
             aLi[index].classList.remove('active');
             this.classList.add('active');
-            if(clientW > 1200){
+            if(clientW >= 1200){
                 this.classList.remove('col-lg-25');
                 this.classList.add('col-lg-5');
-            }else if(clientW > 992){
+            }else if(clientW >= 992){
                 this.classList.remove('col-md-25');
                 this.classList.add('col-md-5');
-            }else if(clientW > 768){
+            }else if(clientW >= 768){
                 this.classList.remove('col-sm-25');
                 this.classList.add('col-sm-5');
             }
