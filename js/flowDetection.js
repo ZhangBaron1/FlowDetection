@@ -29,7 +29,7 @@ $(function () {
     })
 });
 //设备检测
-function detectmob() {
+/*function detectmob() {
     if( navigator.userAgent.match(/Android/i)
         || navigator.userAgent.match(/webOS/i)
         || navigator.userAgent.match(/iPhone/i)
@@ -43,7 +43,7 @@ function detectmob() {
     else {
         return false;
     }
-}
+}*/
 function stopDefault( e )
 {
     if ( e && e.preventDefault )
@@ -70,9 +70,6 @@ function changgeLi(aLi,index,aSrc,oImg,hasA) {
     }
 }
 
-/*function getStyle(obj,attr){
-    return getComputedStyle(obj)?getComputedStyle(obj)[attr]:obj.currentStyle[attr];
-}*/
 //   实验案例切换
 (function () {
         var oexUl = document.getElementById('example-ul');
@@ -102,39 +99,30 @@ function changgeLi(aLi,index,aSrc,oImg,hasA) {
     var oUl = document.getElementsByClassName('service-main')[0];
     var aLi = oUl.getElementsByTagName('li');
     var index = 0;
-    var clientW = window.innerWidth;
     function remove(obj){
         obj.classList.remove('active');
-        if(clientW >= 1200){
-            obj.classList.add('col-lg-25');
-            obj.classList.remove('col-lg-5');
-        }else if(clientW >= 992){
-            obj.classList.add('col-md-25');
-            obj.classList.remove('col-md-5');
-        }else if(clientW >= 768){
-            obj.classList.add('col-sm-25');
-            obj.classList.remove('col-sm-5');
-        }
+        obj.classList.remove('col-lg-5');
+        obj.classList.remove('col-md-5');
+        obj.classList.remove('col-sm-5');
+        obj.classList.add('col-lg-25');
+        obj.classList.add('col-md-25');
+        obj.classList.add('col-sm-25');
+    }
+    function add(obj){
+        obj.classList.remove('col-lg-25');
+        obj.classList.remove('col-md-25');
+        obj.classList.remove('col-sm-25');
+        obj.classList.add('col-lg-5');
+        obj.classList.add('col-md-5');
+        obj.classList.add('col-sm-5');
+        obj.classList.add('active');
     }
     for(var i=0; i<aLi.length; i++){
         aLi[i].index = i;
         aLi[i].onmouseover = function(){
-            var nowWidth = window.innerWidth;
-            clientW = nowWidth;
             if(index!= this.index)
-              remove(aLi[index]);
-            aLi[index].classList.remove('active');
-            this.classList.add('active');
-            if(clientW >= 1200){
-                this.classList.remove('col-lg-25');
-                this.classList.add('col-lg-5');
-            }else if(clientW >= 992){
-                this.classList.remove('col-md-25');
-                this.classList.add('col-md-5');
-            }else if(clientW >= 768){
-                this.classList.remove('col-sm-25');
-                this.classList.add('col-sm-5');
-            }
+                remove(aLi[index]);
+            add(this);
             index = this.index;
         }
     }
